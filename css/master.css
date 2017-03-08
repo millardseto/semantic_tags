@@ -24,20 +24,3 @@ aside {
 section {
   width: 75%;
 }
-
-table.prices {
-  width: 100%;
-}
-
-td, th {
-  padding-left: 6px;
-}
-th {
-  text-align: left;
-}
-
-/* borders around everything */
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
