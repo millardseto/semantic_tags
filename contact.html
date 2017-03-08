@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Contact Us
+    </title>
+  </head>
+  <body>
+    <!-- should be post, but we want to see the parameters, so use a get for now -->
+    <form class="" action="processContact.html" method="get">
+      Name:<br>
+      <input type="text" name="name" value=""><br>
+      EMail:<br>
+      <input type="email" name="email"><br>
+
+      How you found us:<br>
+      <input type="radio" name="found" value="friend" checked> Friend<br>
+      <input type="radio" name="found" value="website"> Website<br>
+      <input type="radio" name="found" value="radio"> Radio<br>
+
+      Message <br>
+      <textarea name="message" rows="8" cols="80"></textarea> <br>
+      <input type="submit" value="Submit">
+    </form>
+
+  </body>
+</html>
