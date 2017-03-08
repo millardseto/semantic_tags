@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- This is a site for radio controlled (RC) vehicles -->        
     <meta charset="utf-8">
     <title>Emerald RC</title>
+
+    <!-- experiment with jqueryui -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/ui-darkness/jquery-ui.css" >
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    </script>
   </head>
+
   <body>
-    <!-- This is a site for radio controlled (RC) vehicles -->
     <header>
       <h1>Emerald City RC</h1>
     </header>
+
     <nav>
-      <a href="boats.html">Boats</a>
-      <a href="cars.html">Cars</a>
-      <a href="helicopters.html">Helicopters</a>
-      <a href="multirotor.html">Multirotor</a>
-      <a href="planes.html">Planes</a>
+      <ul id="menu">
+        <li><a href="boats.html">Boats</a></li>
+        <li><a href="cars.html">Cars</a></li>
+        <li><a href="helicopters.html">Helicopters</a></li>
+        <li><a href="multirotor.html">Multirotor</a></li>
+        <li><a href="planes.html">Planes</a></li>
+      </ul>
     </nav>
 
     <section>
@@ -64,5 +74,8 @@
         Bellevue, WA 98007
       </address>
     </footer>
+    <script type="text/javascript">
+      $("#menu").menu();
+    </script>
   </body>
 </html>
