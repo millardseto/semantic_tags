@@ -4,3 +4,23 @@ header {
   background-color: blue;
   color: #33cc33;
 }
+
+article {
+  padding:5px;
+  border:dotted 3px #33cc33;
+  margin-top:5px;
+}
+
+aside {
+  float: right;
+  width: 20%;
+  margin-top:5px;
+  padding:5px;
+  text-align: center;
+  font-style:italic;
+  border:double 3px;
+}
+
+section {
+  width: 75%;
+}
